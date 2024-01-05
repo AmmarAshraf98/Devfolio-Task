@@ -1,0 +1,54 @@
+:root {
+    --main-blue-color: #0078ff;
+    --main-blue-hover: #cde1f8;
+    --main-black-color: #1e1e1e;
+    --main-dark-color: #4e4e4e;
+    --footer-bg-color: #0062d3;
+    --main-hover: #3393ff;
+}
+
+.portfolio-header {
+    background-image: url("../images/overlay-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    padding: 10rem 0 6rem;
+}
+
+.portfolio-header h2 {
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+.portfolio-header p{
+    color: rgb(218, 215, 215);
+}
+@media screen and (max-width:768px) {
+    .portfolio-header h2 {
+        font-size: 3rem;
+    }
+}
+
+.carousel-indicators .active {
+    background-color: var(--main-blue-color) !important;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1.5px solid var(--main-blue-color);
+}
+
+.proj-info h3 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.proj-info ul li {
+    padding: 8px 0;
+}

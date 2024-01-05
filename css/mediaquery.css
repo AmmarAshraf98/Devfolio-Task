@@ -1,0 +1,57 @@
+/* Header Section Media Query */
+@media screen and (max-width:768px) {
+    header .hero-title h1 {
+        font-size: 3rem;
+    }
+
+    header .hero-title p {
+        font-size: 1.5rem;
+    }
+}
+
+
+/* About Section Media Query */
+@media screen and (max-width:768px) {
+    #about .box-shadow {
+        padding: 3rem;
+    }
+}
+
+/* Counter Section Media Query */
+@media screen and (max-width:1024px) {
+    .counter {
+        background-attachment: scroll;
+    }
+}
+
+
+/* Carsoule Section Media Query */
+
+@media screen and (min-width:768px) {
+    .carsoule .px-p {
+        padding: 0 5rem;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .carsoule .px-p {
+        padding: 0 8rem;
+    }
+}
+
+
+/*  Contact Media Query */
+@media screen and (max-width:1024px) {
+    #contact {
+        background-attachment: scroll;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #contact .contact-box-shadow {
+        padding: 0rem 1.25rem;
+    }
+}
+
+
+/* Portifolio */
